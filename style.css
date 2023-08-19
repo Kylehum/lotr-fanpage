@@ -1,0 +1,139 @@
+body{
+    font-family: fantasy, Times New Roman, serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;  
+}
+
+.header {
+    background: rgb(224, 201, 166);
+}
+.logo{
+    padding: 30px;
+    font-size: 24px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 400px;
+}
+.right-links{
+    display: flex;
+    margin-right: 100px;
+    gap: 30px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+img{
+    height: 100px;
+    width: 200px;
+    border: white;
+    border-style: solid;
+    border-radius: 10px;
+}
+.left-info{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+.title{
+    margin-bottom: 0;
+}
+.description{
+    margin-top: 0;
+    margin-bottom:0;
+    width: 300px;
+    text-align: center;
+}
+.button{
+  width: 100px;
+  padding: 10px;
+  background: gold;
+  border: white;
+  border-style: solid;
+  color: black;
+  margin-left: 100px;
+  border-radius: 10px;
+  margin-top: 0px;
+  font-family: inherit;
+}
+
+.body1{
+    background: rgb(196, 164, 132)
+}
+.discover{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    gap: 20px
+}
+.text{
+    text-align: center;
+}
+.world{
+    display: flex;
+    font-size: 20px;
+    padding: 30px;
+    justify-content: center;
+    
+}
+.body2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(92, 64, 51);
+    padding: 100px;
+    color: gold;
+    font-size: 30px;
+}
+.body3{
+    background: rgb(224, 201, 166);
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gold;
+    padding: 30px;
+    border-radius: 20px;
+    width: 700px;
+}
+.notification{
+    font-size: 24px;
+}
+.sign-up{
+    display: flex;
+    margin-left: 100px;
+    width: 80px;
+    padding: 10px;
+    background: gold;
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    color: black;
+    font-family: inherit;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background: rgb(196, 164, 132);
+}
